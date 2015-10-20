@@ -1,0 +1,113 @@
+/* INDEX:
+ 1. WRAPPER
+ 2. HEADER
+ 3. MENU
+ 4. SIDEBAR
+ 5. CONTENT
+ 6. FOOTER
+*/
+body {
+ background-color: #F0F8FF;  /* warna belakang content*/
+ font-family: "calibri"
+}
+/* 1. WRAPPER
+---------------------------------- */
+#wrapper {
+ width: 850px;
+ margin: 15px auto;
+ height: auto;
+ padding: 20px;
+ background-color:  	#FFF8DC;  /* warna konten keseluruan */
+ box-shadow: 0px 0px 20px  	#FFF8DC;
+ -moz-box-shadow:0px 0px 20px #F60;
+ -webkit-box-shadow: 0px 0px 20px #0000FF; /*warna belakang content */
+ border-radius: 17px;
+ -moz-border-radius: 17px;
+ -webkit-border-radius: 17px;
+}
+/* 2. HEADER
+---------------------------------- */
+#header {
+ width: 85%;
+ height: 27%;
+ background-image: url('../image/fashion.jpg');
+ border: 10% solid #CCC;
+ margin-bottom: 7%;
+ text-align: center;
+}
+/* 3. MENU
+---------------------------------- */
+#menu {
+ width: 850px;
+ height: 27px;
+ margin-bottom: 7px;
+ border: 1px solid #00FF00; /*warna garis tepi menu*/
+ background-color: #F5F5DC;  /*warna belakang menu */
+ font-size:17x;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+#menu ul{
+ margin: 4px 4px 4px 7px;
+ padding: 0px;
+ list-style: none;
+}
+#menu li{
+ margin: 10px;
+ padding: 0px;
+ display: inline;
+}
+#menu a{
+ padding: 6px 6px 6px 6px;
+ text-decoration: none;
+}
+#menu a:hover{
+ padding: 5px 5px 2px 5px;
+ text-decoration: none;
+ color: #006400;
+ background: #D2691E;  /* ketika tersentuh mouse warna berubah */
+}
+/* 4. SIDEBAR
+---------------------------------- */
+#sidebar {
+ float: right;
+ width: 300px;
+ height: 490px;
+ border: 1px solid #CCC;
+ margin-bottom: 7px;
+ text-align: center;
+}
+/* 5. CONTENT
+---------------------------------- */
+#content {
+ width: 538px;
+ height: 590px;
+ margin-bottom: 2px;
+ border: 1px solid #CCC;
+ margin-bottom: 7px;
+}
+#content img{
+ border-radius: 17px;
+ -moz-border-radius: 17px;
+ -webkit-border-radius: 17px;
+ box-shadow: 0px 0px 10px #CCC;
+ -moz-box-shadow:0px 0px 10px #CCC;
+ -webkit-box-shadow: 0px 0px 10px #CCC;
+ padding: 2px; margin-right: 10px;
+ float:left;
+}
+/* 6. FOOTER
+---------------------------------- */
+#footer {
+ width: 850px;
+ height: 20px;
+ padding-top: 0px;
+ border: 1px solid #CCC;
+ text-align: center;
+ background-color: #CCC;
+ clear: both;
+ border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+}
